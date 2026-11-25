@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#001489">
+  <title>Certificação — Ganho e Pipeline · China Link</title>
+  <meta name="description" content="Dashboard de certificação da China Link: volume, ritmo, pendências e carga da fila no CLP.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand-row">
+        <p class="wordmark"><span class="mark" aria-hidden="true"></span>China Link</p>
+        <p class="brand-context">Projeção de Custos · CLP / Teamwork</p>
+      </div>
+      <h1>Certificação — Ganho e Pipeline</h1>
+      <p id="summary" class="lede">Volume, ritmo, pendências e carga da fila de certificação em Projeção de Custos (CLP), com o que falta registrar para medir conversão e margem.</p>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Seções">
+    <div class="toc-inner">
+      <a href="#funil">1. Funil</a>
+      <a href="#volume">2. Volume e ritmo</a>
+      <a href="#operacao">3. Operação</a>
+      <a href="#tipos">4. Tipos de certificação</a>
+      <a href="#qualidade">5. Qualidade e oportunidade</a>
+      <a href="#carga">6. Carga por pessoa</a>
+      <a href="#financeiro">7. Financeiro: dados necessários</a>
+      <a href="#metodo">Notas de método</a>
+    </div>
+  </nav>
+
+  <main id="conteudo">
+    <p id="loading">Carregando dados de certificação…</p>
+    <noscript><p class="error-banner">Este dashboard precisa de JavaScript para ler data/metrics.json.</p></noscript>
+
+    <div id="dashboard" hidden>
+      <div id="kpis" class="kpis" aria-label="Indicadores"></div>
+
+      <section class="block" id="funil">
+        <h2><span class="sec-num">1.</span>Funil</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Da fila à resposta do Process</h3>
+            <div id="funnel-bars" class="bars"></div>
+          </article>
+          <article class="card">
+            <h3 id="pie-title">Resposta do Process</h3>
+            <div class="chart-box" style="height: 280px">
+              <canvas id="chart-pie" aria-label="Distribuição da resposta do Process"></canvas>
+            </div>
+          </article>
+        </div>
+        <p id="funnel-note" class="prose"></p>
+        <aside class="callout">
+          <strong>Conversão em projeto fechado ainda não é mensurável.</strong>
+          <p>Não existe no CLP um vínculo confiável entre a cotação e o projeto fechado (Handover). Por isso a última etapa do funil está em <a href="#financeiro">Dados necessários</a>.</p>
+        </aside>
+      </section>
+
+      <section class="block" id="volume">
+        <h2><span class="sec-num">2.</span>Volume e ritmo</h2>
+        <article class="card">
+          <div class="section-head">
+            <h3>Tasks criadas e concluídas por mês</h3>
+            <div class="segmented" id="range-switch" role="group" aria-label="Período do gráfico de tasks criadas e concluídas">
+              <button type="button" data-range="16m" aria-pressed="true">16 meses</button>
+              <button type="button" data-range="all" aria-pressed="false">Histórico</button>
+            </div>
+          </div>
+          <p id="volume-caption" class="caption" aria-live="polite"></p>
+          <div class="chart-scroll" id="volume-scroll">
+            <div class="chart-box" id="volume-inner">
+              <canvas id="chart-volume" aria-label="Tasks criadas e concluídas por mês"></canvas>
+            </div>
+          </div>
+        </article>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Abertas hoje, por mês de criação</h3>
+            <p class="caption">Os meses sem tasks abertas ficam de fora.</p>
+            <div class="chart-box">
+              <canvas id="chart-open-month" aria-label="Tasks abertas hoje por mês de criação"></canvas>
+            </div>
+          </article>
+          <article class="card">
+            <h3 id="age-title">Idade das tasks abertas</h3>
+            <div id="age-bars" class="bars"></div>
+          </article>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3 id="lead-dist-title">Distribuição do lead time</h3>
+            <div class="chart-box">
+              <canvas id="chart-lead-dist" aria-label="Distribuição do lead time das tasks concluídas"></canvas>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Lead time mediano por mês de criação (dias)</h3>
+            <p id="lead-month-caption" class="caption"></p>
+            <div class="chart-box">
+              <canvas id="chart-lead-month" aria-label="Lead time mediano por mês de criação"></canvas>
+            </div>
+          </article>
+        </div>
+        <p id="lead-summary" class="prose"></p>
+      </section>
+
+      <section class="block" id="operacao">
+        <h2><span class="sec-num">3.</span>Operação</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3 id="stage-title">Abertas por etapa do board</h3>
+            <p class="caption">Os nomes das etapas 48752, 48755 e 48760 são prováveis, não confirmados no CLP.</p>
+            <div id="stage-bars" class="bars"></div>
+          </article>
+          <article class="card">
+            <h3>Abertas por resposta do Process</h3>
+            <p id="open-class-caption" class="caption" hidden></p>
+            <div id="open-class-bars" class="bars"></div>
+          </article>
+        </div>
+        <article class="card">
+          <h3 id="pending-title">Paradas em Info. Pendente Certificação</h3>
+          <p class="caption">Dias desde a criação da task. A API não informa quando ela entrou nesta lista. A última movimentação é a atualização ou comentário mais recente.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Task</th>
+                  <th scope="col">Criada em</th>
+                  <th scope="col" class="num">Dias</th>
+                  <th scope="col" class="num">Última mov. (dias)</th>
+                  <th scope="col">Analista</th>
+                  <th scope="col">Comercial</th>
+                  <th scope="col">Resposta</th>
+                </tr>
+              </thead>
+              <tbody id="pending-body"></tbody>
+            </table>
+          </div>
+        </article>
+        <p id="aguard-note" class="prose"></p>
+      </section>
+
+      <section class="block" id="tipos">
+        <h2><span class="sec-num">4.</span>Tipos de certificação</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3 id="type-title">Órgão citado nas que precisam</h3>
+            <p id="type-caption" class="caption"></p>
+            <div id="type-bars" class="bars"></div>
+          </article>
+          <div id="type-metrics" class="stack"></div>
+        </div>
+        <article class="card">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Task</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Órgão</th>
+                  <th scope="col">Criada em</th>
+                </tr>
+              </thead>
+              <tbody id="precisa-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <section class="block" id="qualidade">
+        <h2><span class="sec-num">5.</span>Qualidade e oportunidade</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>NCMs mais frequentes (4 dígitos)</h3>
+            <p id="ncm-caption" class="caption"></p>
+            <div id="ncm-bars" class="bars"></div>
+          </article>
+          <article class="card">
+            <h3>Tags operacionais mais usadas</h3>
+            <div id="tag-bars" class="bars"></div>
+          </article>
+        </div>
+        <p class="prose">Cotações perdidas por custo ou prazo de certificação e certificados reaproveitáveis não aparecem em nenhum campo do CLP. Os dois estão listados em <a href="#financeiro">Dados necessários</a>.</p>
+      </section>
+
+      <section class="block" id="carga">
+        <h2><span class="sec-num">6.</span>Carga por pessoa</h2>
+        <article class="card">
+          <h3>Analista do Process (tag no card): abertas e total</h3>
+          <div class="chart-box tall" id="analista-box">
+            <canvas id="chart-analista" aria-label="Carga por analista do Process, abertas e total histórico"></canvas>
+          </div>
+        </article>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Comercial solicitante, últimos 12 meses</h3>
+            <p class="caption">Campo Responsável Comercial do formulário.</p>
+            <div id="comercial-bars" class="bars"></div>
+          </article>
+          <article class="card">
+            <h3>Quem concluiu as tasks, últimos 12 meses</h3>
+            <div id="done-bars" class="bars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="block" id="financeiro">
+        <h2><span class="sec-num">7.</span>Financeiro: dados necessários</h2>
+        <aside class="callout warning">
+          <strong>O CLP não tem nenhum valor de certificação.</strong>
+          <p>Receita, custo e margem não estão em metrics.json. A lista abaixo é o que falta registrar em cada task que precisa de certificação. Enquanto esses campos não existirem nos dados, esta página não desenha gráfico financeiro.</p>
+        </aside>
+        <ol class="need">
+          <li>Certificação necessária: SIM / NÃO, em campo ou tag, não só no comentário</li>
+          <li>Tipo de certificação: INMETRO, ANATEL, ANVISA, MAPA, outro</li>
+          <li>Valor cobrado do cliente pela certificação (R$ ou USD)</li>
+          <li>Custo real separado em laboratório, organismo (OCP), ensaio e amostra</li>
+          <li>Status final da cotação: fechada / perdida, com o motivo da perda (custo ou prazo da certificação)</li>
+          <li>Vínculo com o projeto fechado: número do pedido ou ID da task de Handover</li>
+          <li>Etapa do processo de certificação (docs pendentes, amostra enviada, ensaio, emissão), com a data de cada etapa</li>
+          <li>Data de entrada em Info. Pendente Certificação e data de emissão do certificado</li>
+          <li>Certificado reaproveitável: número, validade, produto e fornecedor</li>
+          <li>NCM no formulário atual</li>
+        </ol>
+      </section>
+
+      <section class="block" id="metodo">
+        <h2>Notas de método</h2>
+        <ol class="method">
+          <li id="method-base"></li>
+          <li>Classificação por palavras-chave nos comentários. Precisa: estimativa INMETRO/ANATEL/ANVISA, valor ou custo de certificação, precisa certificar. Sem: sem certificação, não precisa/exige. Em análise: pedido ao @Certificação sem resposta conclusiva.</li>
+          <li>Lead time = conclusão menos criação. Tasks reabertas contam como abertas.</li>
+          <li>A fila 1636047 é a fila geral de projeção de custos, então nem toda task dela envolve certificação.</li>
+          <li>Para atualizar: gere um novo arquivo com <code>scripts/build_metrics.py</code> e substitua <code>data/metrics.json</code>. O passo a passo está em <a href="scripts/README.md">scripts/README.md</a>.</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="site-inner">
+      <p><strong>China Link</strong> · Certificação — Ganho e Pipeline</p>
+      <p id="source"></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

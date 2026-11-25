@@ -1,0 +1,1181 @@
+{
+ "asof": "23/11/2026 18:10",
+ "lists": {
+  "Certificação (fila geral)": {
+   "Concluída": 1276,
+   "Aberta": 224
+  },
+  "Info. Pendente Certificação": {
+   "Concluída": 82,
+   "Aberta": 15
+  }
+ },
+ "total": 1597,
+ "monthly": [
+  {
+   "m": "2023-08",
+   "created": 1,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 177.3,
+   "lead_n": 1
+  },
+  {
+   "m": "2023-09",
+   "created": 0,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": null,
+   "lead_n": 0
+  },
+  {
+   "m": "2023-10",
+   "created": 3,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 63.0,
+   "lead_n": 3
+  },
+  {
+   "m": "2023-11",
+   "created": 2,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 64.9,
+   "lead_n": 2
+  },
+  {
+   "m": "2023-12",
+   "created": 29,
+   "completed": 27,
+   "open_now": 0,
+   "lead_median": 4.2,
+   "lead_n": 29
+  },
+  {
+   "m": "2024-01",
+   "created": 50,
+   "completed": 42,
+   "open_now": 0,
+   "lead_median": 3.9,
+   "lead_n": 50
+  },
+  {
+   "m": "2024-02",
+   "created": 62,
+   "completed": 69,
+   "open_now": 0,
+   "lead_median": 3.0,
+   "lead_n": 62
+  },
+  {
+   "m": "2024-03",
+   "created": 58,
+   "completed": 58,
+   "open_now": 0,
+   "lead_median": 3.2,
+   "lead_n": 58
+  },
+  {
+   "m": "2024-04",
+   "created": 45,
+   "completed": 48,
+   "open_now": 0,
+   "lead_median": 2.7,
+   "lead_n": 45
+  },
+  {
+   "m": "2024-05",
+   "created": 64,
+   "completed": 68,
+   "open_now": 0,
+   "lead_median": 2.0,
+   "lead_n": 64
+  },
+  {
+   "m": "2024-06",
+   "created": 45,
+   "completed": 40,
+   "open_now": 0,
+   "lead_median": 3.7,
+   "lead_n": 45
+  },
+  {
+   "m": "2024-07",
+   "created": 14,
+   "completed": 18,
+   "open_now": 0,
+   "lead_median": 13.6,
+   "lead_n": 14
+  },
+  {
+   "m": "2024-08",
+   "created": 7,
+   "completed": 2,
+   "open_now": 0,
+   "lead_median": 25.1,
+   "lead_n": 7
+  },
+  {
+   "m": "2024-09",
+   "created": 1,
+   "completed": 8,
+   "open_now": 0,
+   "lead_median": 7.9,
+   "lead_n": 1
+  },
+  {
+   "m": "2024-10",
+   "created": 1,
+   "completed": 2,
+   "open_now": 0,
+   "lead_median": 9.0,
+   "lead_n": 1
+  },
+  {
+   "m": "2024-11",
+   "created": 2,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 376.3,
+   "lead_n": 2
+  },
+  {
+   "m": "2024-12",
+   "created": 0,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": null,
+   "lead_n": 0
+  },
+  {
+   "m": "2025-01",
+   "created": 0,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": null,
+   "lead_n": 0
+  },
+  {
+   "m": "2025-02",
+   "created": 1,
+   "completed": 1,
+   "open_now": 0,
+   "lead_median": 1.0,
+   "lead_n": 1
+  },
+  {
+   "m": "2025-03",
+   "created": 3,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 289.0,
+   "lead_n": 3
+  },
+  {
+   "m": "2025-04",
+   "created": 3,
+   "completed": 0,
+   "open_now": 0,
+   "lead_median": 252.1,
+   "lead_n": 3
+  },
+  {
+   "m": "2025-05",
+   "created": 4,
+   "completed": 1,
+   "open_now": 0,
+   "lead_median": 100.3,
+   "lead_n": 4
+  },
+  {
+   "m": "2025-06",
+   "created": 5,
+   "completed": 2,
+   "open_now": 0,
+   "lead_median": 143.0,
+   "lead_n": 5
+  },
+  {
+   "m": "2025-07",
+   "created": 6,
+   "completed": 1,
+   "open_now": 0,
+   "lead_median": 135.0,
+   "lead_n": 6
+  },
+  {
+   "m": "2025-08",
+   "created": 13,
+   "completed": 2,
+   "open_now": 0,
+   "lead_median": 90.0,
+   "lead_n": 13
+  },
+  {
+   "m": "2025-09",
+   "created": 14,
+   "completed": 2,
+   "open_now": 0,
+   "lead_median": 95.2,
+   "lead_n": 14
+  },
+  {
+   "m": "2025-10",
+   "created": 78,
+   "completed": 46,
+   "open_now": 0,
+   "lead_median": 12.2,
+   "lead_n": 78
+  },
+  {
+   "m": "2025-11",
+   "created": 113,
+   "completed": 87,
+   "open_now": 0,
+   "lead_median": 10.4,
+   "lead_n": 113
+  },
+  {
+   "m": "2025-12",
+   "created": 100,
+   "completed": 106,
+   "open_now": 0,
+   "lead_median": 9.4,
+   "lead_n": 100
+  },
+  {
+   "m": "2026-01",
+   "created": 163,
+   "completed": 216,
+   "open_now": 0,
+   "lead_median": 5.0,
+   "lead_n": 163
+  },
+  {
+   "m": "2026-02",
+   "created": 128,
+   "completed": 161,
+   "open_now": 0,
+   "lead_median": 1.9,
+   "lead_n": 128
+  },
+  {
+   "m": "2026-03",
+   "created": 2,
+   "completed": 8,
+   "open_now": 0,
+   "lead_median": 111.9,
+   "lead_n": 2
+  },
+  {
+   "m": "2026-04",
+   "created": 2,
+   "completed": 1,
+   "open_now": 0,
+   "lead_median": 80.0,
+   "lead_n": 2
+  },
+  {
+   "m": "2026-05",
+   "created": 6,
+   "completed": 3,
+   "open_now": 1,
+   "lead_median": 4.7,
+   "lead_n": 5
+  },
+  {
+   "m": "2026-06",
+   "created": 11,
+   "completed": 9,
+   "open_now": 1,
+   "lead_median": 1.7,
+   "lead_n": 10
+  },
+  {
+   "m": "2026-07",
+   "created": 10,
+   "completed": 6,
+   "open_now": 1,
+   "lead_median": 17.2,
+   "lead_n": 9
+  },
+  {
+   "m": "2026-08",
+   "created": 20,
+   "completed": 0,
+   "open_now": 5,
+   "lead_median": 34.7,
+   "lead_n": 15
+  },
+  {
+   "m": "2026-09",
+   "created": 159,
+   "completed": 119,
+   "open_now": 14,
+   "lead_median": 7.2,
+   "lead_n": 145
+  },
+  {
+   "m": "2026-10",
+   "created": 219,
+   "completed": 112,
+   "open_now": 132,
+   "lead_median": 2.0,
+   "lead_n": 87
+  },
+  {
+   "m": "2026-11",
+   "created": 153,
+   "completed": 93,
+   "open_now": 85,
+   "lead_median": 3.6,
+   "lead_n": 68
+  }
+ ],
+ "lead": {
+  "n": 1358,
+  "median": 4.7,
+  "p75": 13.1,
+  "p90": 45.4,
+  "n90d": 310,
+  "median90d": 5.3,
+  "buckets": [
+   {
+    "b": "< 1 dia",
+    "n": 228
+   },
+   {
+    "b": "1–3 dias",
+    "n": 292
+   },
+   {
+    "b": "3–7 dias",
+    "n": 313
+   },
+   {
+    "b": "7–15 dias",
+    "n": 219
+   },
+   {
+    "b": "15–30 dias",
+    "n": 126
+   },
+   {
+    "b": "30–90 dias",
+    "n": 125
+   },
+   {
+    "b": "> 90 dias",
+    "n": 55
+   }
+  ]
+ },
+ "open_age": [
+  {
+   "b": "< 7 dias",
+   "n": 22
+  },
+  {
+   "b": "7–30 dias",
+   "n": 102
+  },
+  {
+   "b": "30–90 dias",
+   "n": 109
+  },
+  {
+   "b": "90–365 dias",
+   "n": 6
+  },
+  {
+   "b": "> 1 ano",
+   "n": 0
+  }
+ ],
+ "stages_open": {
+  "1636047": {
+   "Backlog (sem etapa)": 179,
+   "Prioridade (provável)": 41,
+   "Info. pend. (provável)": 3,
+   "AG. COTAÇÃO (provável)": 1
+  },
+  "1732324": {
+   "Backlog (sem etapa)": 15
+  }
+ },
+ "pending": [
+  {
+   "id": 26703924,
+   "name": "BRASILEIROS NA NEVE LTDA - ITENS PARA ESQUIAR",
+   "created": "01/09/2026",
+   "dias": 83,
+   "dias_sem_mov": 5,
+   "analista": "Alexia",
+   "comercial": "Alana Dezena",
+   "comments": 8,
+   "cls": "Precisa certificação"
+  },
+  {
+   "id": 26747281,
+   "name": "Lion Fitness - Cortador de grama e máquina de vendas / 39208341",
+   "created": "10/09/2026",
+   "dias": 74,
+   "dias_sem_mov": 5,
+   "analista": "Tayná",
+   "comercial": "Antonio Rosa",
+   "comments": 5,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26756296,
+   "name": "INFINITE GLOBAL ALLIANCE LTDA - PER E BI CARBONATO DE SÓDIO",
+   "created": "12/09/2026",
+   "dias": 71,
+   "dias_sem_mov": 5,
+   "analista": "Tayná",
+   "comercial": "Carlos Aires",
+   "comments": 11,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26791850,
+   "name": "NR STORE - Switch / 39110728",
+   "created": "22/09/2026",
+   "dias": 62,
+   "dias_sem_mov": 5,
+   "analista": "Tayná",
+   "comercial": "Nivia",
+   "comments": 6,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26796524,
+   "name": "Campista - maquina de pintura de cimento",
+   "created": "23/09/2026",
+   "dias": 61,
+   "dias_sem_mov": 5,
+   "analista": "Isabelli",
+   "comercial": "Vitoria Silvestre",
+   "comments": 4,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26838617,
+   "name": "PERIN IMPORTACAO  - Cadeira de Escritorio",
+   "created": "01/10/2026",
+   "dias": 53,
+   "dias_sem_mov": 4,
+   "analista": "Tayná",
+   "comercial": "Graziele Galdino",
+   "comments": 6,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26835932,
+   "name": "IMOVEIS BRASIL EMPREENDIMENTOS E PARTICIPACOES LTDA - casa container",
+   "created": "01/10/2026",
+   "dias": 53,
+   "dias_sem_mov": 5,
+   "analista": "Tayná",
+   "comercial": "Diogo Rogner",
+   "comments": 8,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26869147,
+   "name": "IMOVEIS BRASIL EMPREENDIMENTOS E PARTICIPACOES LTDA - Cabo de energia unipolar",
+   "created": "08/10/2026",
+   "dias": 46,
+   "dias_sem_mov": 5,
+   "analista": "Alexia",
+   "comercial": "Lais Lira",
+   "comments": 8,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26916626,
+   "name": "FERNANDO OLIVEIRA LUCENA - PULVERIZADOR",
+   "created": "21/10/2026",
+   "dias": 33,
+   "dias_sem_mov": 5,
+   "analista": "Alexia",
+   "comercial": "Antonio",
+   "comments": 3,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 26928223,
+   "name": "Go Voltex Imports LTDA - CARREGADOR VEICULAR",
+   "created": "22/10/2026",
+   "dias": 32,
+   "dias_sem_mov": 5,
+   "analista": "Mayla",
+   "comercial": "Matheus Benatti Pereira",
+   "comments": 4,
+   "cls": "Em análise / sem resposta"
+  },
+  {
+   "id": 27009333,
+   "name": "NDUSTRIA E COMERCIO DE AGUA SOLEDADE DE MINAS LTDA - Carregador Veicular e  Usina Fotovoltáica",
+   "created": "11/11/2026",
+   "dias": 12,
+   "dias_sem_mov": 7,
+   "analista": "Tayná",
+   "comercial": "Filipe Oliveira",
+   "comments": 2,
+   "cls": "Indefinido"
+  },
+  {
+   "id": 27017287,
+   "name": "HOTEL KINDERMANN LTDA - Robôs e Etiquetas Eletrônicas / 56221256",
+   "created": "12/11/2026",
+   "dias": 11,
+   "dias_sem_mov": 0,
+   "analista": "Isabelli",
+   "comercial": "Filipe Nascimento De Oliveira",
+   "comments": 6,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 27017185,
+   "name": "JONATHA CORDEIRO NEGOCIOS IMOBILIARIOS LTDA - SCOOTERS",
+   "created": "12/11/2026",
+   "dias": 11,
+   "dias_sem_mov": 0,
+   "analista": "Isabelli",
+   "comercial": "Gabriel Silva",
+   "comments": 5,
+   "cls": "Sem certificação"
+  },
+  {
+   "id": 27016763,
+   "name": "LIS ONLINE LTDA - organizador de louças",
+   "created": "12/11/2026",
+   "dias": 11,
+   "dias_sem_mov": 3,
+   "analista": "Mayla",
+   "comercial": "Breno Santos",
+   "comments": 6,
+   "cls": "Indefinido"
+  },
+  {
+   "id": 27023995,
+   "name": "KM CENTRO AUTOMOTIVO LTDA - CARREGADORES VEICULAR",
+   "created": "16/11/2026",
+   "dias": 7,
+   "dias_sem_mov": 4,
+   "analista": "Mayla",
+   "comercial": "Lais Ferreira",
+   "comments": 4,
+   "cls": "Sem certificação"
+  }
+ ],
+ "aguard_cert": [
+  {
+   "id": 22244997,
+   "name": "CURSOS - RC SOL. AGRÍCULAS - PARTES DE TRATOR - PARTES DE TRATOR",
+   "status": "Concluída",
+   "created": "24/10/2023",
+   "dias": 1126
+  },
+  {
+   "id": 22384370,
+   "name": "MODERTECH ASSISTENCIA TECNICA CNC - Máquina de centro de usinagem vertical.",
+   "status": "Concluída",
+   "created": "23/11/2023",
+   "dias": 1096
+  },
+  {
+   "id": 22417484,
+   "name": "CURSOS - AUTO PEÇAS SHELBY - INFORMATICA - VARIADOS",
+   "status": "Concluída",
+   "created": "01/12/2023",
+   "dias": 1088
+  },
+  {
+   "id": 22433769,
+   "name": "Ultra conectado - Roteador",
+   "status": "Concluída",
+   "created": "06/12/2023",
+   "dias": 1083
+  },
+  {
+   "id": 22432657,
+   "name": "CURSOS - IMPORTAÇÃO MURILO - AMPLIFICADOR E CABEÇOTE - AMPLIFICADOR E CABEÇOTE",
+   "status": "Concluída",
+   "created": "06/12/2023",
+   "dias": 1083
+  },
+  {
+   "id": 22439456,
+   "name": "CURSOS - DELETRO - VARIADO - VARIADOS",
+   "status": "Concluída",
+   "created": "07/12/2023",
+   "dias": 1082
+  },
+  {
+   "id": 22445346,
+   "name": "Vallone Peças e Equipamentos - Climatizador de ar.",
+   "status": "Concluída",
+   "created": "08/12/2023",
+   "dias": 1081
+  },
+  {
+   "id": 22452588,
+   "name": "Alkans Pharma - Capsula gelatinosa.",
+   "status": "Concluída",
+   "created": "11/12/2023",
+   "dias": 1078
+  },
+  {
+   "id": 22458760,
+   "name": "CURSOS - MARINA GUERINI - VARIADOS - VARIADOS",
+   "status": "Concluída",
+   "created": "12/12/2023",
+   "dias": 1077
+  },
+  {
+   "id": 22467006,
+   "name": "CURSOS - BILLA INFORMÁTICA - SSD, MOUSE E TECLADO - SSD, MOUSE E TECLADO",
+   "status": "Concluída",
+   "created": "13/12/2023",
+   "dias": 1076
+  },
+  {
+   "id": 22483315,
+   "name": "CURSOS - MINI CAR ELECTRIC - CARROS ELÉTRICOS - CARROS ELETRICOS",
+   "status": "Concluída",
+   "created": "18/12/2023",
+   "dias": 1071
+  },
+  {
+   "id": 22550462,
+   "name": "FL Imports - Abridor de vinho",
+   "status": "Concluída",
+   "created": "05/01/2024",
+   "dias": 1053
+  },
+  {
+   "id": 22581692,
+   "name": "Logymetria - Rastreador GPS",
+   "status": "Concluída",
+   "created": "15/01/2024",
+   "dias": 1043
+  },
+  {
+   "id": 25004148,
+   "name": "TÍPICO NUTS - Nozes",
+   "status": "Concluída",
+   "created": "14/08/2025",
+   "dias": 466
+  }
+ ],
+ "class": {
+  "fetched": 401,
+  "with_comments": 339,
+  "counts": {
+   "Sem certificação": 305,
+   "Precisa certificação": 10,
+   "Em análise / sem resposta": 21,
+   "Indefinido": 3
+  },
+  "both": 10,
+  "by_list": {
+   "Certificação (fila geral)": {
+    "Sem certificação": 276,
+    "Precisa certificação": 7,
+    "Em análise / sem resposta": 20,
+    "Indefinido": 1
+   },
+   "Info. Pendente Certificação": {
+    "Precisa certificação": 3,
+    "Sem certificação": 29,
+    "Em análise / sem resposta": 1,
+    "Indefinido": 2
+   }
+  },
+  "open_counts": {
+   "Sem certificação": 209,
+   "Precisa certificação": 6,
+   "Em análise / sem resposta": 21,
+   "Indefinido": 3
+  }
+ },
+ "types": {
+  "INMETRO": 7,
+  "ANATEL": 3,
+  "ANVISA": 3
+ },
+ "types_none": 1,
+ "precisa_list": [
+  {
+   "id": 27023811,
+   "name": "Evolução Fit - balança de bioimpedância / Import Fitness Comercio Esportivo SLU LTDA",
+   "status": "Concluída",
+   "types": "INMETRO, ANVISA",
+   "created": "16/11/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26988794,
+   "name": "Francis Bekembauer Vaz  - PERFUMES",
+   "status": "Aberta",
+   "types": "ANVISA",
+   "created": "05/11/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26946682,
+   "name": "Coopdiesel - CARREGADOR VEICULAR",
+   "status": "Concluída",
+   "types": "ANATEL",
+   "created": "27/10/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26703924,
+   "name": "BRASILEIROS NA NEVE LTDA - ITENS PARA ESQUIAR",
+   "status": "Aberta",
+   "types": "INMETRO",
+   "created": "01/09/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26690129,
+   "name": "HC RIO HEALTH - LVLIP COMERCIO, IMPORTACAO, EXPORTACAO E SERVICOS LTDA - ITENS MÉDICOS",
+   "status": "Aberta",
+   "types": "INMETRO, ANVISA",
+   "created": "28/08/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26624923,
+   "name": "Bonanza micael - 1 - 029065",
+   "status": "Aberta",
+   "types": "INMETRO",
+   "created": "14/08/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26623104,
+   "name": "BRS TRANSPORTES LTDA - AR CONDICIONADO",
+   "status": "Aberta",
+   "types": "INMETRO, ANATEL",
+   "created": "13/08/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 26582233,
+   "name": "Vanessa - Acessórios  - Diversos",
+   "status": "Aberta",
+   "types": "INMETRO",
+   "created": "05/08/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 25690104,
+   "name": "ALVES BABY COMERCIO DE PRODUTOS INFANTIS EIRELI - Paínel de Led",
+   "status": "Concluída",
+   "types": "—",
+   "created": "20/01/2026",
+   "ncm": "—"
+  },
+  {
+   "id": 24989285,
+   "name": "ROTHAMA SERVICOS E COMERCIO DE PRODUTOS AGRICOLAS LTDA - SEPARADOR DE SOLIDO E LIQUIDO E REVOLVEDOR DE COMPMOSTAGEM",
+   "status": "Concluída",
+   "types": "INMETRO, ANATEL",
+   "created": "11/08/2025",
+   "ncm": "—"
+  }
+ ],
+ "ncm": {
+  "tasks_with_ncm": 343,
+  "top4": [
+   [
+    "4202",
+    10
+   ],
+   [
+    "8543",
+    10
+   ],
+   [
+    "8528",
+    8
+   ],
+   [
+    "8481",
+    8
+   ],
+   [
+    "8422",
+    8
+   ],
+   [
+    "3926",
+    7
+   ],
+   [
+    "9503",
+    7
+   ],
+   [
+    "9506",
+    7
+   ],
+   [
+    "8428",
+    7
+   ],
+   [
+    "8418",
+    6
+   ],
+   [
+    "8711",
+    6
+   ],
+   [
+    "8413",
+    6
+   ]
+  ],
+  "top4_precisa": []
+ },
+ "tags": [
+  [
+   "NCM",
+   992
+  ],
+  [
+   "Frete",
+   383
+  ],
+  [
+   "Rodoviário",
+   320
+  ],
+  [
+   "Process",
+   58
+  ],
+  [
+   "Feita",
+   21
+  ],
+  [
+   "Entregue",
+   19
+  ],
+  [
+   "Aguard. Cert.",
+   14
+  ],
+  [
+   "Em analise",
+   14
+  ],
+  [
+   "Prioridade",
+   8
+  ],
+  [
+   "Atualiz.",
+   4
+  ],
+  [
+   "Descrição",
+   2
+  ],
+  [
+   "Ag. info. Comercial",
+   2
+  ]
+ ],
+ "load_analista": [
+  {
+   "name": "Alexia",
+   "total": 394,
+   "open": 48
+  },
+  {
+   "name": "Tayná",
+   "total": 322,
+   "open": 68
+  },
+  {
+   "name": "Vanessa",
+   "total": 226,
+   "open": 0
+  },
+  {
+   "name": "Gabriel",
+   "total": 168,
+   "open": 0
+  },
+  {
+   "name": "Isabelli",
+   "total": 153,
+   "open": 92
+  },
+  {
+   "name": "Mayla",
+   "total": 45,
+   "open": 22
+  },
+  {
+   "name": "Luiza",
+   "total": 3,
+   "open": 0
+  },
+  {
+   "name": "Luana",
+   "total": 2,
+   "open": 0
+  },
+  {
+   "name": "Lethycia",
+   "total": 2,
+   "open": 0
+  },
+  {
+   "name": "Rodrigo",
+   "total": 2,
+   "open": 0
+  },
+  {
+   "name": "Mariana",
+   "total": 2,
+   "open": 0
+  },
+  {
+   "name": "Isabela",
+   "total": 1,
+   "open": 0
+  }
+ ],
+ "load_comercial": [
+  {
+   "name": "Antonio Rosa",
+   "total": 69,
+   "open": 4
+  },
+  {
+   "name": "Thadeu Friederichs",
+   "total": 47,
+   "open": 3
+  },
+  {
+   "name": "Gabriela Ferreira",
+   "total": 44,
+   "open": 1
+  },
+  {
+   "name": "Juliana Benevenuto",
+   "total": 43,
+   "open": 11
+  },
+  {
+   "name": "Luiz Miguel",
+   "total": 42,
+   "open": 0
+  },
+  {
+   "name": "Graziele Galdino",
+   "total": 42,
+   "open": 7
+  },
+  {
+   "name": "Sally Sepulveda",
+   "total": 35,
+   "open": 4
+  },
+  {
+   "name": "Gabriel Silva",
+   "total": 35,
+   "open": 22
+  },
+  {
+   "name": "Bruno Masotti",
+   "total": 34,
+   "open": 0
+  },
+  {
+   "name": "Breno Santos",
+   "total": 31,
+   "open": 3
+  },
+  {
+   "name": "Vitória Silvestre",
+   "total": 31,
+   "open": 4
+  },
+  {
+   "name": "Suelyn",
+   "total": 28,
+   "open": 0
+  }
+ ],
+ "load_comercial_12m": [
+  [
+   "Antonio Rosa",
+   58
+  ],
+  [
+   "Graziele Galdino",
+   41
+  ],
+  [
+   "Juliana Benevenuto",
+   38
+  ],
+  [
+   "Gabriel Silva",
+   35
+  ],
+  [
+   "Bruno Masotti",
+   34
+  ],
+  [
+   "Gabriela Ferreira",
+   31
+  ],
+  [
+   "Breno Santos",
+   29
+  ],
+  [
+   "Vitória Silvestre",
+   29
+  ],
+  [
+   "Lais Lira",
+   28
+  ],
+  [
+   "Sally Sepulveda",
+   27
+  ],
+  [
+   "Matthew",
+   25
+  ],
+  [
+   "Lais Ferreira",
+   20
+  ]
+ ],
+ "load_analista_12m": [
+  [
+   "Alexia",
+   307
+  ],
+  [
+   "Tayná",
+   237
+  ],
+  [
+   "Vanessa",
+   169
+  ],
+  [
+   "Isabelli",
+   149
+  ],
+  [
+   "Mayla",
+   45
+  ],
+  [
+   "Luiza",
+   1
+  ]
+ ],
+ "completed_by_12m": [
+  [
+   "Regiane Santos",
+   293
+  ],
+  [
+   "Leandro Gregorio",
+   282
+  ],
+  [
+   "Karolina dos Santos Vieira",
+   72
+  ],
+  [
+   "Fabiane Nascimento",
+   56
+  ],
+  [
+   "Berguer Rodrigues",
+   22
+  ],
+  [
+   "Emely Dormundo",
+   10
+  ],
+  [
+   "Breno Santos",
+   4
+  ],
+  [
+   "Antonio Rosa",
+   4
+  ],
+  [
+   "Vanessa Francini",
+   3
+  ],
+  [
+   "Clayton Benjamin",
+   3
+  ]
+ ],
+ "commenters_precisa": [
+  [
+   "Julia Alves de Jesus",
+   332
+  ],
+  [
+   "Tayná Santos",
+   147
+  ],
+  [
+   "Isabelli Freitas Aguiar",
+   138
+  ],
+  [
+   "Leandro Gregorio",
+   111
+  ],
+  [
+   "Alexia Menjon",
+   72
+  ],
+  [
+   "Vanessa Francini",
+   44
+  ],
+  [
+   "Mayla Karina",
+   38
+  ],
+  [
+   "Karolina dos Santos Vieira",
+   24
+  ],
+  [
+   "Luiza Israel",
+   17
+  ],
+  [
+   "Luiz Felipe",
+   15
+  ]
+ ]
+}
